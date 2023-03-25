@@ -24,6 +24,7 @@
   "dependencies": {
     "4": "^0.0.0",
     "bootstrap": "^5.2.3",
+    "inputmask": "^5.0.8",
     "jquery": "^3.6.4"
   }
 }

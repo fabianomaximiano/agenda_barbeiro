@@ -93,7 +93,7 @@
         </div>
         <div class="form-group">
             <label for="telefone">Telefone</label>
-            <input type="text" class="form-control" name="telefone" maxlength="15" id="telefone" placeholder="Informe seu Telefone" value="<?php if(isset($dados['telefone'])){echo $dados['telefone'];} ?>">
+            <input type="text" class="form-control telefone-mask" name="telefone" maxlength="15" id="telefone" placeholder="Informe seu Telefone" value="<?php if(isset($dados['telefone'])){echo $dados['telefone'];} ?>">
             <small id="helpTelefone" class="form-text text-muted">Informar telefone.</small>
         </div>
         <div class="form-group">
@@ -108,6 +108,7 @@
 
 
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="assets/js/jquery.mask.min.js"></script>
 <script src="node_modules/@popperjs/core/dist/umd/popper.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
 <script src="assets/js/custom.js"></script>
