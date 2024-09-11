@@ -1,0 +1,30 @@
+{
+  "name": "agenda_barbeiro",
+  "version": "1.0.0",
+  "description": "agenda barbeiro",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fabianomaximiano/agenda_barbeiro.git"
+  },
+  "keywords": [
+    "barbeiro",
+    "clientes",
+    "et"
+  ],
+  "author": "Fabiano Maximiano",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fabianomaximiano/agenda_barbeiro/issues"
+  },
+  "homepage": "https://github.com/fabianomaximiano/agenda_barbeiro#readme",
+  "dependencies": {
+    "4": "^0.0.0",
+    "bootstrap": "^5.2.3",
+    "inputmask": "^5.0.8",
+    "jquery": "^3.6.4"
+  }
+}
